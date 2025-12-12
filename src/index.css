@@ -1,0 +1,10 @@
+/* add these to your existing index.css (merge or replace) */
+h1, h3 { color: var(--text); }
+h3 { font-size: 18px; margin-bottom:8px; }
+.card { transition: transform .14s ease, box-shadow .14s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 14px 40px rgba(6,8,15,0.65); }
+a.btn:focus, button:focus { outline: 3px solid rgba(109,40,217,0.22); outline-offset: 2px; }
+@media print {
+  .btn, .navlinks { display: none; }
+}
+
